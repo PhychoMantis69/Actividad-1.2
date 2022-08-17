@@ -3,6 +3,12 @@ Go
 Use UnoaUno
 Go
 
+/*
+Para esta relacion, lo que pensamos es que un anfitrion puede tener una
+informacion de contacto y esa informacion solo le puede pertenecer a un solo
+anfitrion 
+*/
+
 Create Table Anfitriones(
 	Legajo bigint not null Primary key,
 	Apellido varchar(30) not null,
