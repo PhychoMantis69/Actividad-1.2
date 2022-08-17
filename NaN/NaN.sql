@@ -3,6 +3,8 @@ Go
 Use MuchosaMuchos
 Go
 
+/* Para esta relacion lo que pensamos fue que un anfitrion puede saber manejar muchos juegos o atracciones y muchos juegos pueden ser manejados por muchos anfitriones. */
+
 Create Table Anfitriones(
 	Legajo bigint not null Primary key,
 	Apellido varchar(30) not null,
