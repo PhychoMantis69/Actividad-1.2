@@ -3,6 +3,8 @@ Go
 Use UnoaMuchos
 Go
 
+/* Para esta relacion definimos que un sector puede tener muchos anfitriones pero un anfitrion solo puede pertenercer a un sector. */
+
 Create Table Sector(
 	Id int not null Primary key,
 	Nombre varchar(30) not null,
